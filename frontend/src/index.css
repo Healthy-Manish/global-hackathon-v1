@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@layer components {
+  .memory-card {
+    transition: all 0.3s ease;
+  }
+  .memory-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  }
+  .voice-recorder {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  }
+  .timeline-container {
+    height: 500px;
+    overflow-y: auto;
+  }
+}
+
+/* Leaflet map styles */
+.leaflet-container {
+  height: 400px;
+  width: 100%;
+}

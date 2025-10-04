@@ -1,0 +1,10 @@
+{
+  "name": "memory-keeper-shared",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Shared utilities and constants for Memory Keeper",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"No tests specified\" && exit 0"
+  }
+}
